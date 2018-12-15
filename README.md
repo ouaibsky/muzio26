@@ -28,8 +28,9 @@ Arduino based VU meter
 # Arduino IDE
 * I switch from ArduinoIDE to VSCode 'cause when your project is growing up Arduino IDE still too basic.
 * Anyway it should remains compatible with Arduino IDE:
-  * put all fils in same directory
-  * rename *muzio26.cpp* to *muzio26.ino*
-  * Then it should work
+  * Launch script *vscode2aide.sh* and open project into *tmp/muzio26* directory
+    * it puts all fils in same directory
+    * rename *muzio26.cpp* to *muzio26.ino*
+    * Then it should work
 
 
