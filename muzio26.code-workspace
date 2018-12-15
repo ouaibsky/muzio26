@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"PATH": "/Users/christophe/.platformio/penv/bin:/Users/christophe/.platformio/penv:/Users/christophe/.sdkman/candidates/maven/current/bin:/Users/christophe/.sdkman/candidates/kotlin/current/bin:/Users/christophe/.sdkman/candidates/java/current/bin:/Users/christophe/.sdkman/candidates/gradle/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
