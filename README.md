@@ -3,7 +3,7 @@ Arduino based VU meter
 
 # History
 * This code is a spinoff of great contribution done by [Cine-Lights](https://www.youtube.com/channel/UCOG6Bi2kvpDa1c8gHWZI5CQ) 
-* It has been tuned to fit [Muzio26 packeg](https://www.kickstarter.com/projects/1936020118/muzio-music-visualization-animated/description), a nawesome VU metter based on top of CineLights code.
+* It has been tuned to fit [Muzio26 packeg]. (https://www.kickstarter.com/projects/1936020118/muzio-music-visualization-animated/description), an awesome VU metter based on top of CineLights code. 
 * But it can re-used for any setup with an arduino and a LED strip.
 
 
@@ -11,15 +11,24 @@ Arduino based VU meter
 * Add a visual indicator to show which pattern has been selected
 * NeoPixel has been removed to leverage only on [FastLED](http://fastled.io/) (only one framework to learn)
 * Source code has been re-arranged, one VU pattern into one header
+  * Simply remove vu name (include and by array) from main file (muzio26.cpp/ino) and that's it
 * Adding some struct array to easily add / remove  pattern
 * Optionnaly print a nice pattern name on Serial.
+* Hardware setup take place  into only one file: "custom.h"
+  * This the place when u wanna change
+    * LEDs type & number
+    * PIN numbers
+    * Platform specific stuf
 
 # TODO
-* Some cleaning in gloable variable
+* Some cleaning in globale variable.
+* Continue to leverage on other FastLed faetures (RGBSet, FastLED.delay, CRGB operastor ...)
 * Add other pattern
 * Make sure it works on ESP8266 / ESP32 / Teensy
-* Add other Fx.
+* Add non visual Fx.
 * Add line in
+* Add Bluetooth (ESP32) ?
+* Add Wifi (ESP*) ?
 
 # VS Code
 * The project is build with Visual Studio Code and PlatformIO extension
